@@ -8,3 +8,5 @@
 4. **C4** - Datasource file usage to pull latest amz-linux2 AMI for EC2 instances
 5. **C5** - The EC2 instance file
 6. **C6** - Outputs file to pull EC2 instance's public ip & public DNS
+
+Feel free to clone this repo, please note that youw will need to create a keypair. Another thing to keep in mind is that in file C5-ec2-instance.tf you will need to modify the file function path accordigly to where you are storing the user-data script for the ec2 instance.
