@@ -5,3 +5,6 @@
 .terraform.tfvars
 .DS_Store
 Private-key/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.d
